@@ -3,29 +3,19 @@
 # SmartExam 考试题库系统
 
 SmartExam 是一款基于前后端分离架构开发的考试题库管理系统，旨在提供高效的题目管理、智能组卷及数据可视化分析功能。
-🚀 快速开始
-1. 准备工作
-确保本地已安装 JDK 17+ 和 Node.js。
+### 🚀 快速开始
 
-准备好 MySQL 数据库环境。
+#### 1. 准备工作
+* 确保本地已安装 **JDK 17+** 和 **Node.js**。
+* 准备好 **MySQL** 数据库环境。
 
-2. 后端启动
-进入 SmartExam 目录。
-
-执行 sql/schema.sql 脚本初始化数据库表结构。
-
-修改 src/main/resources/application.yml 中的数据库账号和密码。
-
-运行 mvn spring-boot:run 启动服务（默认端口 8080）。
-
-3. 前端启动
-进入 smart-exam-web 目录。
-
-运行 npm install 安装依赖。
-
-运行 npm run dev 启动开发服务器（默认端口 5173）。
-
-在浏览器访问 http://localhost:5173 即可进入管理系统。
+#### 2. 后端启动
+1. 进入 `SmartExam` 目录。
+2. 执行 `sql/schema.sql` 脚本初始化数据库表结构。
+3. 修改 `src/main/resources/application.yml` 中的数据库账号和密码。
+4. 运行以下命令启动服务（默认端口 8080）：
+   ```bash
+   mvn spring-boot:run
 
 ## 🌟 核心功能
 
